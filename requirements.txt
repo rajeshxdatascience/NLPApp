@@ -1,0 +1,36 @@
+# ==========================
+# NLPApp Requirements
+# ==========================
+# This application uses the NLPCloud API for NLP services such as:
+#  - Named Entity Recognition (NER)
+#  - Sentiment Analysis
+#  - Headline Generation
+#  - Grammar & Spelling Correction
+#  - Language Detection
+#
+# ------------------------------------------
+# 1️⃣  Install dependencies:
+#     pip install -r requirements.txt
+#
+# 2️⃣  Create a free NLPCloud account:
+#     https://nlpcloud.com
+#
+# 3️⃣  Generate your API key:
+#     - Log in to your NLPCloud dashboard
+#     - Go to “API Keys”
+#     - Copy your key (something like: `xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`)
+#
+# 4️⃣  Set your API key as an environment variable:
+#
+#     🔹 On Windows (PowerShell)
+#         setx NLPCLOUD_API_KEY "your_api_key_here"
+#
+#     🔹 On macOS / Linux
+#         export NLPCLOUD_API_KEY="your_api_key_here"
+#
+# 5️⃣  Run the app:
+#     python NLPApp.py
+#
+# ------------------------------------------
+
+nlpcloud>=1.0.0
